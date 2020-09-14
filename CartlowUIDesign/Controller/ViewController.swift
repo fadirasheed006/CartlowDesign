@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     var homeApi = HomeResponseApi()
     override func viewDidLoad() {
         super.viewDidLoad()
-        categoryCollection.dataSource = self
         
         homeApi.getHomeResponse { (homeData) in
             if let homeData = homeData {

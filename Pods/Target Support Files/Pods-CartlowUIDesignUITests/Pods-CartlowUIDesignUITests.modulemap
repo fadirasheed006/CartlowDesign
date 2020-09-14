@@ -1,0 +1,6 @@
+framework module Pods_CartlowUIDesignUITests {
+  umbrella header "Pods-CartlowUIDesignUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CartlowUIDesign {
+  umbrella header "Pods-CartlowUIDesign-umbrella.h"
+
+  export *
+  module * { export * }
+}
