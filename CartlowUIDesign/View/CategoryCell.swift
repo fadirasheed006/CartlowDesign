@@ -17,7 +17,7 @@ class CategoryCell: UICollectionViewCell {
         catImg.layer.cornerRadius = catImg.frame.size.width/2
         catImg.clipsToBounds = true
         //catImg.layer.cornerRadius = catImg.frame.size.height * 0.1
-        catImg.layer.borderWidth = 1
+        catImg.layer.borderWidth = 0.5
         catImg.layer.borderColor = UIColor.gray.cgColor
         }
     func setUi(cat:Category){
